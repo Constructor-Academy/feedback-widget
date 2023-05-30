@@ -16,6 +16,15 @@ export default defineConfig({
         entryFileNames: 'assets/js/feedback-widget.js',
         assetFileNames: 'assets/[ext]/feedback-widget.[ext]',
       },
+      external: (id) => {
+        // Bundle react and react-dom in the build, and leave all other dependencies as external.
+        if (id === 'react' || id === 'react-dom') {
+          return false
+        }
+
+        // Default behavior: All dependencies in node_modules are treated as externals.
+        return id.includes('node_modules')
+      },
     },
   },
   define: {
