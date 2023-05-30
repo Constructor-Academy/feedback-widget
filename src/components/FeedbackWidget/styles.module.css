@@ -1,0 +1,108 @@
+.feedback_container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  bottom: 15px;
+  right: 15px;
+  position: fixed;
+  max-width: 50%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.feedback_form {
+  display: flex;
+  flex-flow: column;
+  padding: 8px;
+}
+
+.info_close {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+
+.user_info {
+  font-weight: bold;
+  margin-bottom: 8px;
+  line-height: 22px;
+  max-width: 80%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.feedback__submit,
+.feedback__remove_selection {
+  display: inline-block;
+  border-radius: 100px;
+  background-color: #e04130;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  position: relative;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  align-self: flex-end;
+  margin-left: 8px;
+}
+
+.feedback__remove_selection {
+  background-color: #00a6df;
+}
+
+.feedback__remove_selection:hover {
+  background-color: rgba(0, 166, 223, 0.8);
+}
+
+.feedback__submit:hover {
+  color: white;
+  background-color: rgba(224, 65, 48, 0.8);
+}
+
+.feedback__submit:active,
+.feedback__submit:visited {
+  color: white;
+}
+
+.text_selection {
+  background-color: #ffc622;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+
+.close_button {
+  background-color: #e04130;
+  padding: 5px;
+  color: white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.close_button:hover {
+  background-color: rgba(224, 65, 48, 0.8);
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.user_error {
+  color: red;
+}

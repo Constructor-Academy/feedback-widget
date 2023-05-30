@@ -1,0 +1,12 @@
+.feedback_container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  bottom: 15px;
+  right: 15px;
+  position: fixed;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}

@@ -1,0 +1,20 @@
+* {
+  font-family: Lato, proxima-nova, Helvetica Neue, Arial, sans-serif;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  padding: 8px;
+  text-align: inherit;
+  text-transform: none;
+  cursor: pointer;
+  outline: transparent;
+}

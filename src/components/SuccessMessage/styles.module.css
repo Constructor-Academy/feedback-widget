@@ -1,0 +1,19 @@
+.success_container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 169, 135);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.tick_icon {
+  fill: white;
+  margin-right: 10px;
+}
+
+.success_message {
+  margin: 0;
+}

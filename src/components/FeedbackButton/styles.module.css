@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.lightning_icon {
+  stroke: rgb(183, 48, 48);
+  stroke-width: 0.25;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.container:hover path {
+  fill: orange;
+}
